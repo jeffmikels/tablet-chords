@@ -1,0 +1,1 @@
+Connects to your OpenSong installation by local files or over webDav and makes sets available over an easy-to use tablet interface.
