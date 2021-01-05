@@ -1,0 +1,12 @@
+[Unit]
+Description=Worship Chords Tablet Interface
+After=network.target
+
+[Service]
+Type=simple
+User=[user]
+ExecStart=/path/to/worshipchords/start.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
